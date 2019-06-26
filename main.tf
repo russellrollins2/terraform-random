@@ -8,7 +8,6 @@ resource "random_id" "random" {
 
 variable "name" {
   type = string
-  default = "Casey"
 }
 
 output "random" {
